@@ -1,9 +1,9 @@
-public class Hanne {
+public class Mom {
     private String son1;
     private String son2;
     private int powerLevel;
 
-    public Hanne(String son1, String son2) {
+    public Mom(String son1, String son2) {
         this.son1 = son1;
         this.son2 = son2;
         this.powerLevel = 9001;

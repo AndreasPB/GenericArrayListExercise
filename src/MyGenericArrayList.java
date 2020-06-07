@@ -28,13 +28,11 @@ public class MyGenericArrayList<E> {
     public void add(E value) {
 
         int newLength = genericArray.length + 1;
-
         Object[] dataTransfer = genericArray;
         genericArray = new Object[newLength];
 
         for(int i = 0; i < newLength - 1; i++) {
             genericArray[i] = dataTransfer[i];
-
         }
         genericArray[newLength - 1] = value;
         System.out.println(value + " added!");
